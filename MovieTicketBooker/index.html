@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MovieTicketBooker</title>
+</head>
+<body>
+    <div class="movie-container">
+     <label>Pick a movie</label>
+     <select id="movie">
+         <option value="350">KalKi(₹ 350)</option>
+     <option value="270">Avengers End Game(₹ 270)</option>
+     <option value="10">Guntur Karam(₹ 10)</option>
+     <option value="120">Hi Nanna(₹ 120)</option>
+     <option value="190">Saripodha Sanivaram(₹ 190)</option>
+     <option value="170">Transformers Return(₹ 170)</option>
+     <option value="210">Thumbbad 2(₹ 210)</option>
+     </select>
+
+     <ul class="showcase">
+        <li>
+            <div class="seat"></div>
+            <small>N/A</small>
+
+        </li>
+
+        <li>
+            <div class="seat selected"></div>
+            <small>Selected</small>
+
+        </li>
+        <li>
+            <div class="seat occupied"></div>
+            <small>Occupied</small>
+
+        </li>
+        
+     </ul>
+        <div class="container">
+          <div class="screen"></div>
+            <div class="row">
+               <div class="seat"></div>
+               <div class="seat"></div>
+               <div class="seat"></div>
+               <div class="seat occupied"></div>
+               <div class="seat"></div>
+               <div class="seat"></div>
+               <div class="seat"></div>
+               <div class="seat"></div>
+               <div class="seat"></div>
+               <div class="seat"></div>
+               <div class="seat"></div>
+               <div class="seat"></div>
+               <div class="seat"></div>
+               <div class="seat occupied"></div>
+               <div class="seat "></div>
+               <div class="seat"></div>
+               <div class="seat"></div>
+               <div class="seat"></div>
+               <div class="seat"></div>
+               <div class="seat "></div>
+
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat "></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat "></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat "></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat "></div>
+ 
+             </div>
+             <div class="row">
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat "></div>
+                <div class="seat"></div>
+                <div class="seat "></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat "></div>
+                <div class="seat "></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat "></div>
+ 
+             </div>
+             <div class="row">
+                <div class="seat"></div>
+                <div class="seat "></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat "></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat "></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+ 
+             </div>
+             <div class="row">
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat "></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat "></div>
+ 
+             </div>
+        </div>
+    </div>
+
+     <p class="text" >You have Selected <span id="count">0</span> Seats for a price of ₹ <span id="total">0</span></p>
+
+     <div id="customAlert" class="custom-alert hidden">
+        <p id="customAlertMessage"></p>
+    </div>
+
+    <!-- <button class="btn" id="button">Book Tickets</button> -->
+    <button class="button-86" role="button">Book Tickets</button>
+    <script src="script.js"></script>
+</body>
+</html>
