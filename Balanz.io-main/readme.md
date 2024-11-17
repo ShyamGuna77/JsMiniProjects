@@ -2,8 +2,6 @@
 
 Balanz.io is more than just a task manager—it's a smart task management system designed to help you maintain a work-life balance. The app focuses on tracking, managing, and completing tasks in a minimalistic and engaging way.
 
-### 🌐 Live Here: https://balanz-io-01.onrender.com/
-
 ## 📷 Screenshots
 
 <img width="1280" alt="Screenshot 2024-09-26 at 12 03 17 AM" src="https://github.com/user-attachments/assets/23f35714-338a-4f00-a046-1faea24006cb">
@@ -68,7 +66,7 @@ Balanz.io is more than just a task manager—it's a smart task management system
 5. **Environment Variables:**
    Make sure to configure `.env` with the required variables for authentication, database, and API setup.
 
-## 🔑 API for Developers (Coming Soon)
+## 🔑 API for Developers 
 I will provide an API for developers who want to use my backend for their own task management projects. Developers will get their own keys to interact with the API, allowing them to create and manage todos seamlessly.
 
 ## 📈 Workflow
