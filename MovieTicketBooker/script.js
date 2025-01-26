@@ -7,7 +7,7 @@ const bookButton = document.querySelector('.button-86');
 const customAlert = document.getElementById('customAlert');
 const customAlertMessage = document.getElementById('customAlertMessage');
 
-populateUI();
+
 
 let ticketprice = +movieSelect.value; // Initialize ticketprice
 
@@ -90,6 +90,7 @@ function showCustomAlert(message) {
 }
 
 // Initial count and total set
+populateUI();
 updateSelectedCount();
 
 
