@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todos </title>
+</head>
+<body>
+     <div class="todo-container">
+    <h1>Todo List</h1>
+    
+    <!-- Input field and Add button -->
+    <div class="todo-input">
+      <input type="text" id="todo-input" placeholder="Enter a new todo">
+      <button id="add-btn">Add Todo</button>
+    </div>
+    
+    <!-- Filter options -->
+    <div class="filter-todo">
+      <select id="filter-options">
+        <option value="all">All</option>
+        <option value="completed">Completed</option>
+        <option value="uncompleted">Uncompleted</option>
+      </select>
+    </div>
+    
+    <!-- Todo list -->
+    <ul id="todo-list"></ul>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
